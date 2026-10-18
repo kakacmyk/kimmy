@@ -1,0 +1,10 @@
+view,swiper,swiper-item{
+	box-sizing: border-box;
+}
+
+.pageBg{
+	background:
+	linear-gradient(to bottom, transparent, #fff 1000rpx),  // linear-gradient(从上到下,transparent透明，颜色 )
+	linear-gradient(to right, #beecd8 20%, #f4E2D8);
+	height: 80vh;
+}

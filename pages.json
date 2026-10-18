@@ -1,0 +1,101 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Category/Category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classList/classList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/previvew/previvew",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "公告",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/notice/detail",
+			"style": {
+				"navigationBarTitleText": "公告",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/xianmi/xianmi",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "微信小程序壁纸",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#979905",
+		"selectedColor": "#28b389",
+		"list": [{
+				"text": "推荐",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabBar/home.png",
+				"selectedIconPath": "/static/tabBar/home-h.png"
+
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/Category/Category",
+				"iconPath": "/static/tabBar/classify.png",
+				"selectedIconPath": "/static/tabBar/classify-h.png"
+			},
+			{
+				"text": "用户",
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/tabBar/user.png",
+				"selectedIconPath": "/static/tabBar/user-h.png"
+			},
+			{
+				"text": "测试",
+				"pagePath": "pages/xianmi/xianmi",
+				"iconPath": "/static/tabBar/user.png",
+				"selectedIconPath": "/static/tabBar/user-h.png"
+			}
+		]
+	}
+}
